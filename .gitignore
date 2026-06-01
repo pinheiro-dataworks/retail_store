@@ -1,0 +1,9 @@
+# Ignore everything at the root level
+*
+
+# Keep this file
+!.gitignore
+
+# Keep only the deployment folder
+!retil_store/
+!retil_store/**

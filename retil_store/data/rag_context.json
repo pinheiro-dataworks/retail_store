@@ -1,0 +1,83 @@
+{
+  "dataset_summary": "Retil Store Sales Forecasting Dashboard \u2014 based on the Walmart Recruiting Store Sales Forecasting dataset adapted by Noopur Bhatt. The dataset covers 50 Walmart retail stores across 4 US regions (East, North, South, West) with store types A, B, and C. Period: 2022-01-01 to 2024-12-21. Total revenue: $8.81B across 156,000 weekly sales records spanning 20 departments.",
+  "kpis": {
+    "total_sales": "$8.81B",
+    "avg_weekly_sales": "$56.5K per store-department",
+    "holiday_sales_lift": "+59.9% above non-holiday baseline",
+    "max_store_revenue": "$303.2M (best-performing single store)"
+  },
+  "store_types": {
+    "A": {
+      "description": "Large-format stores",
+      "count": 26,
+      "share_revenue": "73.7%"
+    },
+    "B": {
+      "description": "Medium-format stores",
+      "count": 16,
+      "share_revenue": "21.7%"
+    },
+    "C": {
+      "description": "Small-format stores",
+      "count": 8,
+      "share_revenue": "4.6%"
+    }
+  },
+  "regions": {
+    "East": "$2.90B",
+    "North": "$2.48B",
+    "South": "$1.96B",
+    "West": "$1.48B"
+  },
+  "holidays": [
+    "Black Friday",
+    "Christmas",
+    "Labor Day",
+    "New Year",
+    "Independence Day"
+  ],
+  "holiday_lift_by_event": {
+    "Black Friday": "+104.3%",
+    "Christmas": "+76.5%",
+    "Labor Day": "+41.8%",
+    "New Year": "+34.0%",
+    "Independence Day": "+16.7%"
+  },
+  "seasons": [
+    "Spring",
+    "Summer",
+    "Fall",
+    "Winter"
+  ],
+  "top_features": [
+    "type_enc",
+    "is_holiday",
+    "store_size",
+    "month_num",
+    "week_of_year"
+  ],
+  "ml_performance": {
+    "random_forest": {
+      "R2": 0.38493339432179174,
+      "MAE": 26418.7659896872,
+      "RMSE": 36388.38973998474
+    },
+    "gradient_boosting": {
+      "R2": 0.429029056736527,
+      "MAE": 25591.703312922316,
+      "RMSE": 35059.74615274402
+    }
+  },
+  "top_departments": [
+    "Dept 20",
+    "Dept 19",
+    "Dept 18",
+    "Dept 17",
+    "Dept 16",
+    "Dept 15",
+    "Dept 14",
+    "Dept 13",
+    "Dept 12",
+    "Dept 11"
+  ]
+}
