@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="retil_store/img/logo.png" alt="Retil Store" width="220"/>
+</p>
+
 # Retil Store — Sales Forecasting Dashboard
 
 An interactive sales forecasting dashboard built on real retail data, combining exploratory analysis, machine learning models, and a conversational AI assistant powered by Groq.
