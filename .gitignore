@@ -4,6 +4,9 @@
 # Keep this file
 !.gitignore
 
+# Keep README
+!README.md
+
 # Keep only the deployment folder
 !retil_store/
 !retil_store/**
